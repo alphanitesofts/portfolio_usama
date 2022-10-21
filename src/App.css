@@ -1,0 +1,29 @@
+.comments-img {
+   
+    height: 150px;
+   
+    left: -36.84%;
+    right: 80.5%;
+    top: 1016px;
+    background: radial-gradient(66.32% 187.49% at 33.68% 50%, rgba(115, 103, 240, 0.1) 0%, rgba(54, 127, 211, 0.035) 100%);
+    border-radius: 150px;
+}
+.logo-icon{
+    /* transform-origin: center; */
+    transform:  translate(-50%,-50%);
+    animation: myfirst 2.5s infinite linear;    
+    
+    }
+    @keyframes myfirst{
+        0%{
+            transform:  translate(-50%,-50%) rotate(0deg); 
+        }
+        100%{
+            transform:  translate(-50%,-50%) rotate(360deg); 
+        }
+    }
+    .navbar-nav :hover{
+        color: rgb(63, 57, 89);
+        text-decoration: underline blue ;
+    
+    }
